@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Birthday Gorl</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav_wrapper">
+            <div class="left_buttons">
+                
+                <div class="nav_link_wrapper">
+                    <a href="https://www.notion.so/Our-Vision-Board-fc122dc2341745fb824e9dbc3c3736b9">VISION BOARD</a>
+                </div>
+            </div>
+
+            <div class="right_text">
+                <div class="wrapper_text">
+                    <div>HAPPY BIRTHDAY</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content_wrapper">
+            <div class="items_wrapper">
+                <div class="item_wrapper">
+                    <div class="img_background" style="background-image: url(Images/1.png)"></div>
+                    
+                    <div class="text_wrapper">                       
+                        <div class="subtitle">
+                            Wszystkiego najlepszego mój misiuuuuu
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item_wrapper">
+                    <div class="img_background" style="background-image: url(Images/2.JPG)"></div>
+                    
+                    <div class="text_wrapper">                       
+                        <div class="subtitle">
+                            生日快乐！！！
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item_wrapper">
+                    <div class="img_background" style="background-image: url(Images/3.jpg)"></div>
+                    
+                    <div class="text_wrapper">
+                        <div class="subtitle">
+                            To the most beautiful girl OF ALL TIME, my cheeseball, my goofy, my waifu, and MY FAVORITE POOPIE
+                        </div>
+                    </div>
+                </div>
+                <div class="item_wrapper">
+                    <div class="img_background" style="background-image: url(Images/4.png)"></div>
+                    
+                    <div class="text_wrapper">
+                        <div class="subtitle">
+                            I'm so grateful for you as you have brought out the best of me. You have made me feel like I can truly be myself when I'm with you. 
+                        </div>
+                        <div class="spacer"></div>
+                        <div class="subtitle">
+                            My life after meeting you is a chaper I hope I never forget.
+                        </div>
+                    </div>
+                </div>
+                <div class="item_wrapper">
+                    <div class="img_background" style="background-image: url(Images/5.png)"></div>
+                    
+                    <div class="text_wrapper">
+                        <div class="subtitle">
+                            Your smile always brings me so much joy. Your hair, your eyes, your voice, our vibes together. I have fallen in love with everything about you.
+                        </div>
+                    </div>
+                </div>
+                <div class="item_wrapper">
+                    <div class="img_background" style="background-image: url(Images/6.png)"></div> 
+                    
+                    <div class="text_wrapper">
+                        <div class="subtitle">
+                            You are sixteen going on seventeen~
+                            Fellows will fall in line~
+                            Eager young lads and rogues and cads~
+                            Will offer you food and wine ;)))
+                        </div>
+                    </div>
+                </div>
+                <div class="item_wrapper">
+                    <div class="img_background" style="background-image: url(Images/7.png)"></div>
+                    
+                    <div class="text_wrapper">
+                        <div class="subtitle">
+                            I can't wait to go on so many more advanturess and make so many more memories with you misiu 
+                        </div>
+                    </div>
+                </div>
+                <div class="item_wrapper">
+                    <div class="img_background" style="background-image: url(Images/8.png)"></div>
+                    
+                    <div class="text_wrapper">
+                        <div class="subtitle">
+                        Thank you for being in my life *insert pleading eyes emoji*
+                        </div>
+                    </div>
+                </div>
+                <div class="item_wrapper">
+                    <div class="img_background" style="background-image: url(Images/9.png)"></div>
+                    
+                    <div class="text_wrapper">
+                        <div class="subtitle">
+                            Once we harmonized,
+                            Your goals and dreams, 
+                            Also became mine. 
+                            And I so dearly
+                            Wanted to see you 
+                            Achieve them all. 
+                        </div>
+                        <div class = "spacer"></div>
+                        <div class = "subtitle">
+                            Kocham cię
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    const items = document.querySelectorAll('.item_wrapper')
+
+    items.forEach(item => {
+        item.addEventListener('mouseover', () => {
+            item.childNodes[1].classList.add('image_blur')
+        })
+
+        item.addEventListener('mouseout', () => {
+            item.childNodes[1].classList.remove('image_blur')
+        })
+    })
+</script>
+
+</html>
